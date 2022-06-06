@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import {View} from 'react-native';
 import {Provider} from 'react-redux';
-import {createStore} from 'redux';
+import {createStore, applyMiddleware} from 'redux';
+import ReduxThunk from 'redux-thunk'; //ReduxThunk is actualy a middleware
 import reducers from './reducers/index';
 import {initializeApp} from 'firebase/app';
 import LoginForm from './components/LoginForm';
@@ -23,8 +23,9 @@ class App extends Component {
   }
 
   render() {
+    const store = createStore(reducers, {}, applyMiddleware(ReduxThunk));//second argument is initial state we want to pass to our application
     return (
-      <Provider store={createStore(reducers)}>
+      <Provider store={store}>
         <LoginForm />
       </Provider>
     );
