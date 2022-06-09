@@ -3,6 +3,5 @@ export * from './Button';//Means take everything from Button file and export it 
 export * from './Card';
 export * from './CardSection';
 export * from './Header';
-export * from './LoginForm';
 export * from './Input';
 export * from './Spinner';
