@@ -6888,6 +6888,11 @@
     "jscodeshift" "^0.13.1"
     "nullthrows" "^1.1.1"
 
+"react-native-communications@^2.2.1":
+  "integrity" "sha512-5+C0X9mopI0+qxyQHzOPEi5v5rxNBQjxydPPiKMQSlX1RBIcJ8uTcqUPssQ9Mo8p6c1IKIWJUSqCj4jAmD0qVQ=="
+  "resolved" "https://registry.npmjs.org/react-native-communications/-/react-native-communications-2.2.1.tgz"
+  "version" "2.2.1"
+
 "react-native-experimental-navigation@^0.29.2":
   "integrity" "sha512-9jsfJStGQce8lTGPshnqGS8IaJ2Y8JP+lkJNX/kRXnSKFSbsFkNDC5o4QvlUfX7ylQcBVLz3cvquUV1BGu3fNQ=="
   "resolved" "https://registry.npmjs.org/react-native-experimental-navigation/-/react-native-experimental-navigation-0.29.2.tgz"
